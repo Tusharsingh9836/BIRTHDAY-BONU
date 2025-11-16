@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Bonu</title>
+
+  <!-- Professional Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #000;
+      color: #fff; /* red-white-black theme applied */
+      overflow-x: hidden;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .container {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+  font-family: 'Querolas', serif;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #ffffff !important;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+  background: none !important;
+  -webkit-background-clip: unset;
+}
+
+    h2 {
+  font-family: 'Querolas', serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.12);
+  background: none !important;
+  -webkit-background-clip: unset;
+}
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      padding: 30px;
+      width: 80%;
+      margin: auto;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 0, 0, 0.4);
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+
+    /* Balloons */
+    .balloons img {
+      width: 150px;
+      animation: float 4s ease-in-out infinite;
+      margin: 10px;
+      filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.8));
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-25px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Glitter */
+    .glitter {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: url('https://i.imgur.com/8QfYhQm.png');
+      animation: glitterMove 8s linear infinite;
+      opacity: 0.4;
+    }
+
+    @keyframes glitterMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 800px 800px; }
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="font-family: 'Querolas', serif; background: linear-gradient(90deg, #ffd700, #ffae00); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);">🎉 Happy Birthday, Bonu! 🎉</h1>
+    <h2 style="font-family: 'Querolas', serif; background: linear-gradient(90deg, #ffe680, #ffcc33); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 12px rgba(255, 200, 0, 0.6);">Wishing you a magical day full of sparkle ✨</h2>
+
+    <div class="balloons" style="margin-top:20px; text-align:center;">
+  <img src="https://cdn-icons-png.flaticon.com/512/1998/1998592.png" alt="Birthday Cake" style="width:220px; animation: float 4s ease-in-out infinite; filter: drop-shadow(0 0 15px red);" />
+</div>
+
+    <div class="card">
+      <p style="font-size: 1.5rem; line-height: 1.6; font-family: 'Softmark', cursive;">
+        May your day be filled with joy, love, and endless surprises. <br>
+        You deserve every bit of happiness today and always. 💖
+      </p>
+    </div>
+
+    <div class="signature" style="margin-top: 40px; font-size: 1.4rem; font-family: 'Softmark', cursive; color: #ffcc33; text-shadow: 0 0 10px rgba(255, 200, 0, 0.7);">— With love, Tushar</div>
+
+<div class="footer">Made with ❤️ by your brother</div>
+  </div>
+  <div class="glitter"></div>
+
+  <audio autoplay loop>
+    <source src="https://www.computerhope.com/jargon/m/example.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
